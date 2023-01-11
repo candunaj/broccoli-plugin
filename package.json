@@ -16,6 +16,10 @@
   "files": [
     "dist/"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*"
+  },
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
